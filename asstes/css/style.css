@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: rgb(0,255,248);
+    display: flex;
+    justify-content: center;
+    background: #00fff8;
+    background: linear-gradient(54deg, #00fff8 0%, #df00c7 100%);
+}
+
+#janela{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#tela-login{
+    border-radius: 7px;
+    background-color: white;
+    text-align: center;
+    width: 380px;
+    height: 710px;
+    box-shadow: 11px -9px 35px 0px;
+}
+
+#titulo{
+    text-align: center;
+    font-family: inter;
+    margin-top: 40px;
+}
+
+#dados{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+#dados p{
+    margin-bottom: 10px ;
+    margin-top: 17px;
+    text-align: left;
+    margin-left: 92px;
+    font-family: inter;
+}
+
+#dados img{
+    position: absolute;
+}
+
+#dados a{
+    margin-left: 105px;
+    color: #000000;
+    font-family: inter;
+    font-size: 12px;
+}
+
+button{
+    width: 290px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background: #00fff8;
+    background: linear-gradient(54deg, #00fff8 0%, #df00c7 100%);
+    color: #fff;
+    margin-top: 30px;
+}
+
+#sing-ups-alter{
+    margin-top: 70px;
+}
+
+#sing-ups-alter p{
+    margin-bottom: 19px;
+}
+
+#singUp{
+    margin-top: 150px;
+}
+
+.caixa-form{
+    padding-left: 20px;
+    padding-bottom: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
