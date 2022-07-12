@@ -13,6 +13,10 @@ body{
     background: linear-gradient(54deg, #00fff8 0%, #df00c7 100%);
 }
 
+input:focus{
+    outline: 0;
+}
+
 #janela{
     width: 100vh;
     height: 100vh;
